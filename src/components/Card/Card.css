@@ -1,6 +1,7 @@
 .list {
-  background-color: rgb(214 200 0 / 70%);
-  box-shadow: 1px 1px 8px 2px lightblue;
+  background-color: rgb(200 200 50 / 60%);
+  box-shadow: 1px 1px 8px 2px #000000bd;
+  /* rgb(143, 206, 228); */
   height: min-content;
   position: relative;
   transform: translateZ(0);
@@ -18,9 +19,12 @@
   overflow-y: scroll;
   margin: 0;
   margin-top: 15px;
-  border-radius: 8px;
+  border-radius: 18px;
   z-index: 200;
   word-wrap: break-word;
+
+  font-family: "Kleymisska" !important;
+  font-size: larger;
 }
 
 @keyframes mymove {
@@ -32,6 +36,8 @@
 input {
   width: 30% !important;
   word-wrap: break-word;
+  font-family: "Kleymisska" !important;
+  font-size: larger;
 }
 
 .list:active {
@@ -46,7 +52,8 @@ input {
   -webkit-transform: translateZ(105%);
   transform: translateZ(105%);
   transform: scale(1.45);
-  box-shadow: 1px 1px 220px 40px rgba(0, 0, 0, 0.7);
+  box-shadow: 1px 1px 220px 40px #000000be;
+  /* rgba(0, 0, 0, 0.7); */
   min-height: min-content;
   max-height: max-content;
   width: max-content;
@@ -59,9 +66,12 @@ input {
   color: white;
   font-size: large;
   font-family: "Milonga";
+  font-family: "Kleymisska" !important;
+  font-size: larger;
   font-weight: 500;
   margin: 2px;
-  text-shadow: 1px 1px 1px black, 0 0 0.8em black, 0 0 0.2em black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0), 0 0 0.8em rgb(0, 0, 0),
+    0 0 0.2em rgb(14, 85, 0);
 }
 
 .addbtnnote {

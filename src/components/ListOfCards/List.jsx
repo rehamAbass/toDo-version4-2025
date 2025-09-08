@@ -3,10 +3,10 @@ import React from 'react'
 import Card from '../Card/Card'
 import '../../App.css'
 const GreenColors = [
-    'rgb(180 180 0 / 70%)',
-    'rgba(255 221 0/ 70%)',
-    'rgba(190,170,20,0.7)',
-    'rgb(200 190 10 / 70%)',
+    'rgb(180 180 40 / 70%)',
+    'rgba(215 211 40/ 70%)',
+    'rgba(190,170,40,0.7)',
+    'rgb(200 190 40 / 70%)',
     'rgba(150,150,40,0.7)',
 ]
 

@@ -3,6 +3,7 @@
 
 .allSongsDiv {
   margin: 40px 40px;
+  margin-top: 80px;
   padding: 40px;
   display: grid;
   width: max-width;
@@ -10,7 +11,7 @@
   grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
   align-items: flex-start;
   justify-content: center;
-  background-color: #2d5500b8;
+  background-color: #19811eb8;
   /* #00551fab; */
   color: white;
   box-shadow: 1px 1px 8px 2px lightgray;
@@ -20,6 +21,7 @@
   /* 25px; */
   font-family: "Kleymisska" !important;
   font-size: larger;
+  transform: scale(0.92);
 }
 
 .buttonSong {
