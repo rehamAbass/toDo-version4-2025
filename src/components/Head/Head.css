@@ -1,0 +1,12 @@
+.Head {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 500px) {
+  .Head {
+    margin: 7px;
+    padding: 7px;
+    min-width: 340px !important;
+    width: 350px !important;
+  }
+}

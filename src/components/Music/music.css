@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Milonga");
+@import url("https://fonts.googleapis.com/css2?family=Kleymisska");
+
+.allSongsDiv {
+  margin: 40px 40px;
+  padding: 40px;
+  display: grid;
+  width: max-width;
+  min-width: max-content;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #2d5500b8;
+  /* #00551fab; */
+  color: white;
+  box-shadow: 1px 1px 8px 2px lightgray;
+  font-family: "Milonga";
+  font-family: "Kleymisska";
+  border-radius: 100px;
+  /* 25px; */
+}
+
+.buttonSong {
+  align-self: baseline;
+  padding: auto;
+  padding-top: 2px;
+  padding-left: 4px;
+  margin-left: 5px;
+  margin-top: 1%;
+  color: rgb(17, 0, 255);
+  font-size: large;
+  font-style: italic;
+  min-width: max-content;
+  max-width: 145px;
+  border-radius: 7%;
+  border: 10px rgb(0, 0, 0);
+}
+
+.buttonSong:hover {
+  background-color: rgb(0, 30, 255);
+  cursor: pointer;
+  box-shadow: 1px 10px 24px 4px rgba(0, 0, 0, 0.842);
+  color: rgb(255, 255, 255);
+}
+
+.listen {
+  margin-left: -40%;
+  margin-top: 1%;
+  position: absolute;
+  flex-direction: row;
+  align-self: baseline;
+  color: black;
+  font-size: large;
+  font-family: cursive;
+  font-style: italic;
+  box-shadow: 1px 1px 1px 1px rgba(86, 102, 244, 0.543);
+  min-width: max-content;
+  border-radius: 5%;
+}
+
+.listen:hover {
+  cursor: pointer;
+  background-color: rgba(255, 221, 0, 0.7);
+}
+
+@media screen and (max-width: 500px) {
+  .allSongsDiv {
+    grid-template-columns: 0.7fr 0.7fr 0.7fr;
+    align-items: center;
+    background-color: #2d5500b8;
+    /* #044b1ec7; */
+    margin: 20px 20px;
+  }
+}

@@ -1,0 +1,25 @@
+.addList {
+    background-color: rgba(30, 180,200,0.7);
+     color:white;
+    font-size:x-large;
+    align:center;
+    min-width: max-content;
+    height: min-content;
+    border-radius: 40%; 
+   border: 1px rgba(0,0,0,0.3); 
+}
+
+.addList:hover {
+     background-color: rgba(100,100,100,0.7);
+    cursor: pointer;
+     color:white;
+}
+
+.l {
+    background-color: rgba(103, 103, 103, 0.644);
+}
+form{
+     text-align:center;
+    align-items: center;
+    justify-items: center;
+}

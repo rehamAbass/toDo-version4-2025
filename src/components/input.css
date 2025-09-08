@@ -1,0 +1,23 @@
+input {
+  color: black;
+  padding: 4px;
+  font-size: normal;
+  font-family: cursive;
+  border-radius: 20px !important;
+  text-align: start;
+  margin: 3px;
+  border-radius: 1%;
+  box-sizing: content-box;
+  max-width: fit-content;
+  min-height: max-content;
+  background-color: rgba(255, 255, 249, 0.712);
+  text-justify: newspaper;
+  width: fit-content;
+  height: 15px;
+}
+
+input:hover {
+  height: max-content;
+  font-weight: 400;
+  font-size: medium;
+}

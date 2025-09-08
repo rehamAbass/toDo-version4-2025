@@ -1,0 +1,39 @@
+.tasks {
+  background-color: rgba(250, 250, 245, 0.9);
+  min-height: 0px;
+  max-height: 70px;
+  overflow-y: scroll;
+  scroll-behavior: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.tasks:hover {
+  max-height: max-content;
+  word-wrap: break-word;
+  width: content;
+}
+
+* {
+  /*         --scrollbarBG: #9999; */
+  /* --thumbBG: #ffffffd0; */
+}
+
+.tasks::-webkit-scrollbar {
+  width: 9px;
+}
+
+.tasks::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+.tasks::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
