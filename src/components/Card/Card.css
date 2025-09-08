@@ -95,4 +95,9 @@ input {
     float: none;
     width: 52%;
   }
+
+  input {
+    width: 70% !important;
+    font-size: small;
+  }
 }

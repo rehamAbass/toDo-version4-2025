@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kleymisska");
 
 .allSongsDiv {
-  margin: 40px 40px;
+  margin: 0px 40px;
   margin-top: 80px;
   padding: 40px;
   display: grid;
@@ -73,6 +73,9 @@
     align-items: center;
     background-color: #2d5500b8;
     /* #044b1ec7; */
-    margin: 20px 20px;
+    /* margin: 20px 20px; */
+
+    margin: 0.5%;
+    width: 90%;
   }
 }

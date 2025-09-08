@@ -43,12 +43,11 @@
     grid-template-columns: 0.7fr 0.7fr 0.7fr;
   }
   .oneSong {
-    font-size: medium;
-    margin-top: 90px;
+    /* margin-top: 90px; */
     margin-left: 10px;
     max-width: 70px;
     font-family: "Kleymisska" !important;
-    font-size: larger;
+    font-size: small;
   }
 
   .oneSongIcon {

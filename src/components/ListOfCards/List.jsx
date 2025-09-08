@@ -4,9 +4,9 @@ import Card from '../Card/Card'
 import '../../App.css'
 const GreenColors = [
     'rgba(140, 200 ,40,0.7)',
-    'rgba(200 ,200,40,0.7)',
+    'rgba(160 ,190,20,0.7)',
     'rgba(190,200,40,0.7)',
-    'rgba(140 ,200 ,40,0.7)',
+    'rgba(140 ,200 ,20,0.7)',
     'rgba(110,190,40,0.7)',
 ]
 
