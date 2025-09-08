@@ -14,10 +14,12 @@
   /* #00551fab; */
   color: white;
   box-shadow: 1px 1px 8px 2px lightgray;
-  font-family: "Milonga";
-  font-family: "Kleymisska";
+  /* font-family: "Milonga";
+  font-family: "Kleymisska"; */
   border-radius: 100px;
   /* 25px; */
+  font-family: "Kleymisska" !important;
+  font-size: larger;
 }
 
 .buttonSong {

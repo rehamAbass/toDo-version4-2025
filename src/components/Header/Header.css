@@ -24,8 +24,13 @@ marquee {
   align-self: center !important;
   white-space: wrap !important;
   text-align: center !important;
+  font-family: "Kleymisska" !important;
 }
 
+a {
+  font-family: "Kleymisska" !important;
+  font-size: larger;
+}
 .headerMarq {
   text-align: center !important;
   margin-top: 10px;
