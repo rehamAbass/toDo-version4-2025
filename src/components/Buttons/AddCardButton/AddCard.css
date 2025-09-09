@@ -10,6 +10,21 @@
   border: 1px rgba(0, 0, 0, 0.3);
 }
 
+input{
+    width: 50% !important;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: medium;
+    font-family: "Aref Ruqaa", Arial;
+    outline: none;
+    border: 2px solid #93c597;
+    box-shadow: 0 0 10px #93c597;
+    direction: rtl;
+    background-color: #fefff0;
+    color: #000000;
+    transition: 0.3s;  
+}
+
 .addList:hover {
   background-color: rgba(26, 117, 46, 0.897);
   /* rgba(100, 100, 100, 0.7); */
