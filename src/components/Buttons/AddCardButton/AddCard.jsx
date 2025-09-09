@@ -20,7 +20,7 @@ const AddCardButton = ({ addNewCard }) => {
     return (
         <form onSubmit={onSubmit} >
             <input
-                style={{ maxWidth: '1000px', width: '1000px' }}
+                style={{ maxWidth: '1000px'}}
                 type='text'
                 placeholder='title'
                 value={title}
